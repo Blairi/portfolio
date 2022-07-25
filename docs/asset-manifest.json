@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Blairi/portfolio/static/css/main.a2964eee.css",
+    "main.js": "/Blairi/portfolio/static/js/main.0e648345.js",
+    "static/media/devstagram.png": "/Blairi/portfolio/static/media/devstagram.76871038561c719c7692.png",
+    "static/media/sass.png": "/Blairi/portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/uptask.png": "/Blairi/portfolio/static/media/uptask.0b7d65fbec462b6795e8.png",
+    "static/media/livewire.png": "/Blairi/portfolio/static/media/livewire.4669145215c8ca688916.png",
+    "static/media/php.png": "/Blairi/portfolio/static/media/php.4990580e9b615aeebb1f.png",
+    "static/media/blairi_brand.png": "/Blairi/portfolio/static/media/blairi_brand.bc84bce4e1e086876862.png",
+    "static/media/railway.png": "/Blairi/portfolio/static/media/railway.30187acaa1bcffa81b4f.png",
+    "static/media/laravel.png": "/Blairi/portfolio/static/media/laravel.8b2939ca7ad8851c40a2.png",
+    "static/media/github.png": "/Blairi/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/Blairi/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Blairi/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/Blairi/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mysql.png": "/Blairi/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
+    "static/media/javascript.png": "/Blairi/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/Blairi/portfolio/index.html",
+    "main.a2964eee.css.map": "/Blairi/portfolio/static/css/main.a2964eee.css.map",
+    "main.0e648345.js.map": "/Blairi/portfolio/static/js/main.0e648345.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2964eee.css",
+    "static/js/main.0e648345.js"
+  ]
+}
