@@ -9,7 +9,7 @@ const Email = () => {
 
   return (
     <a
-      className='text-2xl text-white font-bold'
+      className='text-xl text-white font-bold'
       href={'mailto:' + data.user + '@' +data.domain}
     >
       {data.user + '@' +data.domain}

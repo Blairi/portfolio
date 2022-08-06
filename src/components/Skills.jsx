@@ -17,16 +17,17 @@ import TechnologyIcon from './ui/TechnologyIcon';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full bg text-gray-300 min-h-[120vh] md:min-h-screen'>
+    <div name='skills' className='w-full bg text-gray-300 py-36 overflow-hidden'>
+      
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-11/12 md:w-full rounded-md bg-black'>
+      <div className='mx-auto flex flex-col justify-center w-[95%] max-w-[1000px] rounded-md bg-black p-4 md:p-8'>
 
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-500'>Habilidades</p>
           <p className='py-4'>&#47;&#47; Aquí algunas de las tecnologías con las que he trabajado.</p>
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
 
           <TechnologyIcon name={'HTML'} src={HTML}/>
 

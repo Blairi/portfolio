@@ -7,10 +7,12 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg '>
+    <div name='home' className='w-full flex justify-center h-screen items-center bg'>
 
       {/* Container */}
-      <div className='w-3/4 md:w-auto max-w-[1000px] md:mx-auto p-8 flex flex-col justify-center bg-black rounded-md'>
+      <div 
+        className='w-[93%] md:w-auto max-w-[1000px] md:mx-auto py-2 px-2 md:p-8 flex flex-col justify-center bg-black rounded-md'
+      >
 
         <p className='text-purple-500 text-base font-bold'>Hola, mi nombre es</p>
         <h1 className='text-3xl md:text-7xl font-bold text-[#ccd6f6]'>&#60; Axel Montiel &#47;&#62;</h1>

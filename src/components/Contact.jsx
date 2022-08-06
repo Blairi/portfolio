@@ -4,9 +4,13 @@ import Email from './ui/Email'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg flex justify-center items-center p-4'>
+    <div name='contact' className='w-full py-32 bg flex justify-center items-center'>
 
-      <form method='POST' action="https://getform.io/f/69d998eb-26f7-4fc1-bfb1-365c209a1f39" className='flex flex-col max-w-[600px] w-full bg-black p-8 rounded-md'>
+      <form 
+        method='POST' 
+        action="https://getform.io/f/69d998eb-26f7-4fc1-bfb1-365c209a1f39" 
+        className='flex flex-col w-[93%] max-w-[800px] bg-black p-3 md:p-8 rounded-md'
+      >
 
         <div className='pb-8'>
 
