@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8e6b8d39.css",
-    "main.js": "/portfolio/static/js/main.f684106d.js",
-    "static/media/devstagram.png": "/portfolio/static/media/devstagram.76871038561c719c7692.png",
+    "main.css": "/portfolio/static/css/main.1aeed36f.css",
+    "main.js": "/portfolio/static/js/main.2496287a.js",
+    "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.f4f2467731ce65fee4d0.png",
+    "static/media/shortly.png": "/portfolio/static/media/shortly.dea4e1c0e8caec0bb48f.png",
     "static/media/sass.png": "/portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
-    "static/media/uptask.png": "/portfolio/static/media/uptask.0b7d65fbec462b6795e8.png",
+    "static/media/dashboard.png": "/portfolio/static/media/dashboard.e20fdbdc8abe94613f3a.png",
+    "static/media/react.png": "/portfolio/static/media/react.25803af39958a2cb9df1.png",
     "static/media/livewire.png": "/portfolio/static/media/livewire.4669145215c8ca688916.png",
     "static/media/php.png": "/portfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/blairi_brand.png": "/portfolio/static/media/blairi_brand.bc84bce4e1e086876862.png",
@@ -17,11 +19,11 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.8e6b8d39.css.map": "/portfolio/static/css/main.8e6b8d39.css.map",
-    "main.f684106d.js.map": "/portfolio/static/js/main.f684106d.js.map"
+    "main.1aeed36f.css.map": "/portfolio/static/css/main.1aeed36f.css.map",
+    "main.2496287a.js.map": "/portfolio/static/js/main.2496287a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e6b8d39.css",
-    "static/js/main.f684106d.js"
+    "static/css/main.1aeed36f.css",
+    "static/js/main.2496287a.js"
   ]
 }
