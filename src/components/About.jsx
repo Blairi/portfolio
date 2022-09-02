@@ -21,6 +21,7 @@ const about = () => {
             <p className='text-lg'>
               Estudié en una preparatoría tecnica en la que lleve la carrera de: "Tecnico en programación". Durante la preparatoría aprendí a programar desde diagramas de flujo con DFD, páginas web, hasta crear aplicaciones moviles con Java. Al concluir mis estudios en la preparatoría decidi ampliar mis conocimientos y estudié desarollo web con cursos de internet; con una buena base de programación, fue facíl para mí adaptarme. Ahora curso una ingeniería donde llevo materias de programación como estructuras de datos y demas.
             </p>
+            <a className='text-pink-600 underline text-lg font-bold' href="https://www.linkedin.com/in/axel-montiel-000848202/">Mi Linkedin</a>
           </div>
         </div>
       </div>

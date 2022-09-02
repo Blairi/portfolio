@@ -1,8 +1,9 @@
 import React from 'react';
 import WorkExample from './ui/WorkExample';
 
-import upTask from '../assets/uptask.png';
-import Devstagram from '../assets/devstagram.png'
+import interactiveCard from '../assets/interactive-card.png';
+import dashboard from '../assets/dashboard.png';
+import shortly from '../assets/shortly.png';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -13,6 +14,8 @@ import MySQL from '../assets/mysql.png';
 import tailwind from '../assets/tailwind.png';
 import Laravel from '../assets/laravel.png';
 import Livewire from '../assets/livewire.png';
+import reactIcon from '../assets/react.png';
+import ghPages from '../assets/github.png';
 
 import Railway from '../assets/railway.png';
 import Heroku from '../assets/heroku.png';
@@ -26,7 +29,8 @@ const Work = () => {
 
         <div className='pb-8'>
           <p className='text-4xl inline font-bold border-b-4 text-gray-300 border-purple-500'>Proyectos</p>
-          <p className='py-4'>&#47;&#47; Proyectos donde he puesto en práctica mis conocimientos.</p>
+          <p className='py-4'>Proyectos donde he puesto en práctica mis conocimientos.</p>
+          <p>&#47;&#47; Más proyectos en mi <a className='text-pink-600 text-lg font-bold underline' href="https://github.com/Blairi">Github</a></p>
         </div>
 
         {/* Container */}
@@ -35,46 +39,62 @@ const Work = () => {
         >
 
           <WorkExample
-            src={upTask}
-            proyect={'UpTask'}
-            href='https://blairiuptask.herokuapp.com/'
-            source='https://github.com/Blairi/UpTask'
-            subtitle='Crea y gestiona tus proyectos.'
-            desc='Proyecto con arquitectura MVC. Aplicación donde puedes crear un proyecto y crear una lista de tareas por realizar, las cuales se pueden marcar como pendientes o completas. Este proyecto esta hecho con JS vanilla, PHP vanilla y MySQL. Integre el servicio Gmail para enviar correos de verificación de cuentas y restablecimiento de password.'
-            list={ ['Autenticación', 'Envio de Email', 'Actualización de DOM interactivo', 'Crear y consumir API'] }
+            src={interactiveCard}
+            proyect={'Interactive Card Details'}
+            href='https://blairi.github.io/interactive-card/'
+            source='https://github.com/Blairi/interactive-card'
+            subtitle='Tarjeta interactiva'
+            desc='Formulario de tarjeta bancaria con vista en tiempo real de la misma.'
+            list={ ['Interactividad', 'Custom hook', 'Validación', 'Manejo de estado'] }
             techs={[
               {icon: HTML, name: 'HTML'}, 
               {icon: CSS, name: 'CSS'},
               {icon: JavaScript, name: 'Javascript'},
               {icon: SASS, name: 'SASS'},
-              {icon: PHP, name: 'PHP'},
-              {icon: MySQL, name: 'MySQL'}
+              {icon: reactIcon, name: 'React'},
             ]}
             deploys={[
-              {icon: Railway, name: 'Railway'},
-              {icon: Heroku, name: 'Heroku'}
+              {icon: ghPages, name: 'Github Pages'},
             ]}
           />
 
-          <WorkExample
-            src={Devstagram}
-            proyect={'Devstagram'}
-            href='https://devstagram-production-9954.up.railway.app/'
-            source='https://github.com/Blairi/devstagram'
-            subtitle='Inspirado en Instagram.'
-            desc='Aplicación hecha con Laravel, este proyecto esta inspirado en Instagram. En él se pueden crear publicaciones, seguir personas y comentar posts. '
-            list={ ['Autenticación', 'Subida de archivos', 'Interacción entre usuarios', 'Interactividad de DOM mediante livewire'] }
+          {/* <WorkExample
+            src={shortly}
+            proyect={'URL shortening API landing page'}
+            href='https://blairi.github.io/url-shortening/'
+            source='https://github.com/Blairi/url-shortening'
+            subtitle='Acortador de links'
+            desc='En esta aplicación he consumido una API para generar urls apartir de una url introducida y permitiendole al usuario copiarla con un solo boton'
+            list={ ['Consumo de API' ,'Interactividad', 'Custom hook', 'Validación', 'Manejo de estado'] }
             techs={[
-              {icon: HTML, name: 'HTML'},
-              {icon: tailwind, name: 'Tailwind'},
+              {icon: HTML, name: 'HTML'}, 
+              {icon: CSS, name: 'CSS'},
               {icon: JavaScript, name: 'Javascript'},
-              {icon: PHP, name: 'PHP'},
-              {icon: Laravel, name: 'Laravel'},
-              {icon: Livewire, name: 'Livewire'},
-              {icon: MySQL, name: 'MySQL'}
+              {icon: reactIcon, name: 'React'},
+              {icon: tailwind, name: 'Tailwind'},
             ]}
             deploys={[
-              {icon: Railway, name: 'Railway'}
+              {icon: ghPages, name: 'Github Pages'},
+            ]}
+          /> */}
+
+          <WorkExample
+            src={dashboard}
+            proyect={'Time tracking dashboard'}
+            href='https://blairi.github.io/time-tracking-dashboard/'
+            source='https://github.com/Blairi/time-tracking-dashboard'
+            subtitle='Proyecto donde puse en práctica el hook context'
+            desc='En esta página es muy sencilla pero me ayudo a comprender el manejo de estado y a su vez el contexto'
+            list={ ['Interactividad', 'Manejo de estado'] }
+            techs={[
+              {icon: HTML, name: 'HTML'}, 
+              {icon: CSS, name: 'CSS'},
+              {icon: JavaScript, name: 'Javascript'},
+              {icon: reactIcon, name: 'React'},
+              {icon: tailwind, name: 'Tailwind'},
+            ]}
+            deploys={[
+              {icon: ghPages, name: 'Github Pages'},
             ]}
           />
 

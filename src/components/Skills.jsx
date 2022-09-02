@@ -12,6 +12,7 @@ import Livewire from '../assets/livewire.png';
 import MySQL from '../assets/mysql.png';
 import SASS from '../assets/sass.png';
 import tailwind from '../assets/tailwind.png';
+import reactIcon from '../assets/react.png';
 
 import TechnologyIcon from './ui/TechnologyIcon';
 
@@ -35,6 +36,12 @@ const Skills = () => {
 
           <TechnologyIcon name={'JavaScript'} src={JavaScript}/>
 
+          <TechnologyIcon name={'SASS'} src={SASS}/>
+
+          <TechnologyIcon name={'Tailwind'} src={tailwind}/>
+
+          <TechnologyIcon name={'React'} src={reactIcon}/>
+          
           <TechnologyIcon name={'GitHub'} src={GitHub}/>
 
           <TechnologyIcon name={'PHP'} src={PHP}/>
@@ -45,9 +52,6 @@ const Skills = () => {
 
           <TechnologyIcon name={'MySQL'} src={MySQL}/>
 
-          <TechnologyIcon name={'SASS'} src={SASS}/>
-
-          <TechnologyIcon name={'Tailwind'} src={tailwind}/>
 
         </div>
 
