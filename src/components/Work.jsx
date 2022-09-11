@@ -58,7 +58,7 @@ const Work = () => {
             ]}
           />
 
-          {/* <WorkExample
+          <WorkExample
             src={shortly}
             proyect={'URL shortening API landing page'}
             href='https://blairi.github.io/url-shortening/'
@@ -76,7 +76,7 @@ const Work = () => {
             deploys={[
               {icon: ghPages, name: 'Github Pages'},
             ]}
-          /> */}
+          />
 
           <WorkExample
             src={dashboard}
