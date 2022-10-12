@@ -13,6 +13,7 @@ import MySQL from '../assets/mysql.png';
 import SASS from '../assets/sass.png';
 import tailwind from '../assets/tailwind.png';
 import reactIcon from '../assets/react.png';
+import reduxIcon from '../assets/redux.png';
 
 import TechnologyIcon from './ui/TechnologyIcon';
 
@@ -41,6 +42,8 @@ const Skills = () => {
           <TechnologyIcon name={'Tailwind'} src={tailwind}/>
 
           <TechnologyIcon name={'React'} src={reactIcon}/>
+
+          <TechnologyIcon name={'Redux'} src={reduxIcon}/>
           
           <TechnologyIcon name={'GitHub'} src={GitHub}/>
 
