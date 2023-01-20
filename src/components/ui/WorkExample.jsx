@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, deploys }) => {
+const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, deploys = [] }) => {
 
   return (
     <div className='md:flex md:gap-5 space-y-5 md:space-y-0'>

@@ -2,8 +2,8 @@ import React from 'react';
 import WorkExample from './ui/WorkExample';
 
 import interactiveCard from '../assets/interactive-card.png';
-import dashboard from '../assets/dashboard.png';
 import shortly from '../assets/shortly.png';
+import sortingAlgorithms from '../assets/sorting_algorithms.png'
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -16,6 +16,8 @@ import Laravel from '../assets/laravel.png';
 import Livewire from '../assets/livewire.png';
 import reactIcon from '../assets/react.png';
 import ghPages from '../assets/github.png';
+import cpp from '../assets/cpp.png';
+import python from '../assets/python.png';
 
 import Railway from '../assets/railway.png';
 import Heroku from '../assets/heroku.png';
@@ -79,22 +81,16 @@ const Work = () => {
           />
 
           <WorkExample
-            src={dashboard}
-            proyect={'Time tracking dashboard'}
+            src={ sortingAlgorithms }
+            proyect={'Algortimos de ordenamiento'}
             href='https://blairi.github.io/time-tracking-dashboard/'
             source='https://github.com/Blairi/time-tracking-dashboard'
-            subtitle='Proyecto donde puse en práctica el hook context'
-            desc='En esta página es muy sencilla pero me ayudo a comprender el manejo de estado y a su vez el contexto'
-            list={ ['Interactividad', 'Manejo de estado'] }
+            subtitle='Proyecto de investigación'
+            desc='Proyecto para conocer las complejidades temporales de diferentes algoritmos de ordenamiento.'
+            list={ ['Análisis de algoritmos', 'Gráficas', 'Uso de archivos'] }
             techs={[
-              {icon: HTML, name: 'HTML'}, 
-              {icon: CSS, name: 'CSS'},
-              {icon: JavaScript, name: 'Javascript'},
-              {icon: reactIcon, name: 'React'},
-              {icon: tailwind, name: 'Tailwind'},
-            ]}
-            deploys={[
-              {icon: ghPages, name: 'Github Pages'},
+              {icon: cpp, name: 'C++'},
+              {icon: python, name: 'Python'},
             ]}
           />
 
