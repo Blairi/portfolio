@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1aeed36f.css",
-    "main.js": "/portfolio/static/js/main.e975de69.js",
+    "main.js": "/portfolio/static/js/main.dd0b54e7.js",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.f4f2467731ce65fee4d0.png",
+    "static/media/sorting_algorithms.png": "/portfolio/static/media/sorting_algorithms.e908a3ceb3622d211393.png",
     "static/media/shortly.png": "/portfolio/static/media/shortly.dea4e1c0e8caec0bb48f.png",
     "static/media/sass.png": "/portfolio/static/media/sass.7cdbf6b5889c42b3e490.png",
-    "static/media/dashboard.png": "/portfolio/static/media/dashboard.e20fdbdc8abe94613f3a.png",
     "static/media/react.png": "/portfolio/static/media/react.25803af39958a2cb9df1.png",
     "static/media/livewire.png": "/portfolio/static/media/livewire.4669145215c8ca688916.png",
     "static/media/php.png": "/portfolio/static/media/php.4990580e9b615aeebb1f.png",
@@ -13,18 +13,20 @@
     "static/media/railway.png": "/portfolio/static/media/railway.30187acaa1bcffa81b4f.png",
     "static/media/laravel.png": "/portfolio/static/media/laravel.8b2939ca7ad8851c40a2.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/python.png": "/portfolio/static/media/python.1859adc8d956f707c14b.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.9de9df950e692f5576c1.png",
     "static/media/redux.png": "/portfolio/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.1aeed36f.css.map": "/portfolio/static/css/main.1aeed36f.css.map",
-    "main.e975de69.js.map": "/portfolio/static/js/main.e975de69.js.map"
+    "main.dd0b54e7.js.map": "/portfolio/static/js/main.dd0b54e7.js.map"
   },
   "entrypoints": [
     "static/css/main.1aeed36f.css",
-    "static/js/main.e975de69.js"
+    "static/js/main.dd0b54e7.js"
   ]
 }
