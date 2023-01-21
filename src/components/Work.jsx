@@ -82,7 +82,7 @@ const Work = () => {
 
           <WorkExample
             src={ sortingAlgorithms }
-            proyect={'Algortimos de ordenamiento'}
+            proyect={'Algoritmos de ordenamiento'}
             href='https://blairi.github.io/time-tracking-dashboard/'
             source='https://github.com/Blairi/time-tracking-dashboard'
             subtitle='Proyecto de investigación'
