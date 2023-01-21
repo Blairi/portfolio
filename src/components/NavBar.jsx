@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll';
+import { LangSwitch } from './ui/LangSwitch';
 import Logo from './ui/Logo';
 
 const NavBar = () => {
@@ -18,7 +19,7 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex md:items-center'>
         <li>
           <Link to="home" smooth={true} duration={500} >
             Inicio
@@ -44,6 +45,9 @@ const NavBar = () => {
             Contacto
           </Link>
         </li>
+
+        <LangSwitch />
+
       </ul>
 
       {/* Hamburguer */}
@@ -80,6 +84,11 @@ const NavBar = () => {
             Contacto
           </Link>
         </li>
+
+        <div className='mt-5'>
+          <LangSwitch />
+        </div>
+
       </ul>
 
       {/* Social Icons */}
