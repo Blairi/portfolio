@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "projects": "View projects"
+  },
+  "presentation": {
+    "intro": "Hello, my name is",
+    "name": "Axel Montiel",
+    "occupation": "I'm programmer",
+    "info": "Enthusiast of tech and creating applications, now a computer engineering student at UNAM."
+  }
+}

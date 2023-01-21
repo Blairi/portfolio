@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "projects": "Ver proyectos"
+  },
+  "presentation": {
+    "intro": "Hola, mi nombre es",
+    "name": "Axel Montiel",
+    "occupation": "Soy programador",
+    "info": "Entusiasta de la tecnologia y de crear aplicaciones, ahora estudiante de ingeniería en computación, en UNAM."
+  }
+}
