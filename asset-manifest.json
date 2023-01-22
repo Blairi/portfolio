@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1aeed36f.css",
-    "main.js": "/portfolio/static/js/main.dd0b54e7.js",
+    "main.css": "/portfolio/static/css/main.063f5230.css",
+    "main.js": "/portfolio/static/js/main.95c8ac84.js",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.f4f2467731ce65fee4d0.png",
     "static/media/sorting_algorithms.png": "/portfolio/static/media/sorting_algorithms.e908a3ceb3622d211393.png",
     "static/media/shortly.png": "/portfolio/static/media/shortly.dea4e1c0e8caec0bb48f.png",
@@ -10,7 +10,6 @@
     "static/media/livewire.png": "/portfolio/static/media/livewire.4669145215c8ca688916.png",
     "static/media/php.png": "/portfolio/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/blairi_brand.png": "/portfolio/static/media/blairi_brand.bc84bce4e1e086876862.png",
-    "static/media/railway.png": "/portfolio/static/media/railway.30187acaa1bcffa81b4f.png",
     "static/media/laravel.png": "/portfolio/static/media/laravel.8b2939ca7ad8851c40a2.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/python.png": "/portfolio/static/media/python.1859adc8d956f707c14b.png",
@@ -22,11 +21,11 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.1aeed36f.css.map": "/portfolio/static/css/main.1aeed36f.css.map",
-    "main.dd0b54e7.js.map": "/portfolio/static/js/main.dd0b54e7.js.map"
+    "main.063f5230.css.map": "/portfolio/static/css/main.063f5230.css.map",
+    "main.95c8ac84.js.map": "/portfolio/static/js/main.95c8ac84.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aeed36f.css",
-    "static/js/main.dd0b54e7.js"
+    "static/css/main.063f5230.css",
+    "static/js/main.95c8ac84.js"
   ]
 }
