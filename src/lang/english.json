@@ -24,5 +24,33 @@
   "skills": {
     "skills": "Skills",
     "subtitle": "Here are some techs with whom I worked."
+  },
+  "work": {
+    "projects": "Projects",
+    "subtitle": "Projects where applied what I learned",
+    "more": "More projects in my",
+    "interactiveCard": {
+      "title": "Interactive Card Details",
+      "subtitle": "Interactive card",
+      "desc": "Card form with a real-time preview.",
+      "list": ["Interactive", "Custom hook", "Validation", "State management"]
+    },
+    "shortly": {
+      "title": "URL shortening API landing page",
+      "subtitle": "Link shortener",
+      "desc": "This application consumes API to generate a URL shortened and copy it to the clipboard.",
+      "list": ["API consumes", "Interactive", "Custom hook", "Validation", "State management"]
+    },
+    "sortingAlgorithms": {
+      "title": "Sorting Algorithms",
+      "subtitle": "Investigation project",
+      "desc": "Project to view the time complexity of different sorting algorithms.",
+      "list": ["Algorithm analysis", "Files", "Graphs"]
+    }
+  },
+  "workExample": {
+    "includes": "Includes",
+    "techs": "Techs",
+    "deployed": "Deployed"
   }
 }

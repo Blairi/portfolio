@@ -24,5 +24,33 @@
   "skills": {
     "skills": "Habilidades",
     "subtitle": "Aquí algunas de las tecnologías con las que he trabajado."
+  },
+  "work": {
+    "projects": "Proyectos",
+    "subtitle": "Proyectos donde he puesto en práctica mis conocimientos.",
+    "more": "Más proyectos en mi",
+    "interactiveCard": {
+      "title": "Tarjeta Interactiva",
+      "subtitle": "Tarjeta Interactiva con detalles",
+      "desc": "Formulario de tarjeta bancaria con vista en tiempo real de la misma.",
+      "list": ["Interactividad", "Custom hook", "Validación", "Manejo de estado"]
+    },
+    "shortly": {
+      "title": "Acortador de links. Landing Page.",
+      "subtitle": "Acortador de links",
+      "desc": "En esta aplicación he consumido una API para generar urls apartir de una url introducida y permitiéndole al usuario copiarla con un solo botón.",
+      "list": ["Consumo de API", "Interactividad", "Custom hook", "Validación", "Manejo de estado"]
+    },
+    "sortingAlgorithms": {
+      "title": "Algoritmos de Ordenamiento",
+      "subtitle": "Proyecto de investigación",
+      "desc": "Proyecto para conocer las complejidades temporales de diferentes algoritmos de ordenamiento.",
+      "list": ["Anális de ordenamiento", "Archivos", "Gráficas"]
+    }
+  },
+  "workExample": {
+    "includes": "Incluye",
+    "techs": "Tecnologías",
+    "deployed": "Desplegado"
   }
 }
