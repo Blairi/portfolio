@@ -7,5 +7,12 @@
     "name": "Axel Montiel",
     "occupation": "Soy programador",
     "info": "Entusiasta de la tecnologia y de crear aplicaciones, ahora estudiante de ingeniería en computación, en UNAM."
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
   }
 }

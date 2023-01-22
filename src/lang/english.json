@@ -7,5 +7,12 @@
     "name": "Axel Montiel",
     "occupation": "I'm programmer",
     "info": "Enthusiast of tech and creating applications, now a computer engineering student at UNAM."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
   }
 }
