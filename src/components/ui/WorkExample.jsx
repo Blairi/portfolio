@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { LangContext } from '../../context/LangContext'
 
 const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, deploys = [] }) => {
+
+  const { lang_dict } = useContext( LangContext );
 
   return (
     <div className='md:flex md:gap-5 space-y-5 md:space-y-0'>
@@ -34,7 +37,7 @@ const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, 
         <h3 className='text-2xl font-bold border-b-4 inline border-purple-500'>{proyect}</h3>
         <h4 className='text-lg mb-3'>{subtitle}</h4>
         <p>{desc}</p>
-        <p className='font-bold text-lg text-purple-500'>¿Qué incluye este proyecto?</p>
+        <p className='font-bold text-lg text-purple-500'>{ lang_dict.workExample.includes }</p>
         <div className='flex text-lg flex-wrap'>
           {
             list.map( ( item, index ) => {
@@ -47,7 +50,7 @@ const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, 
             })
           }
         </div>
-        <p className='font-bold text-lg text-purple-500'>Tecnologías usadas:</p>
+        <p className='font-bold text-lg text-purple-500'>{ lang_dict.workExample.techs }</p>
         <div className='flex flex-wrap space-x-4 space-y-1'>
           {
             techs.map( ( item, index ) => {
@@ -71,7 +74,7 @@ const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, 
             })
           }
         </div>
-        <p className='font-bold text-lg text-purple-500 mt-2'>Desplegado en:</p>
+        <p className='font-bold text-lg text-purple-500 mt-2'>{ lang_dict.workExample.deployed }</p>
         <div className='flex flex-wrap space-x-4'>
           {
             deploys.map( ( item, index ) => {

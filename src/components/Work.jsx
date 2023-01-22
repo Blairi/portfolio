@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LangContext } from '../context/LangContext';
 import WorkExample from './ui/WorkExample';
 
 import interactiveCard from '../assets/interactive-card.png';
@@ -9,20 +10,21 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import SASS from '../assets/sass.png';
-import PHP from '../assets/php.png';
-import MySQL from '../assets/mysql.png';
+// import PHP from '../assets/php.png';
+// import MySQL from '../assets/mysql.png';
 import tailwind from '../assets/tailwind.png';
-import Laravel from '../assets/laravel.png';
-import Livewire from '../assets/livewire.png';
+// import Laravel from '../assets/laravel.png';
+// import Livewire from '../assets/livewire.png';
 import reactIcon from '../assets/react.png';
 import ghPages from '../assets/github.png';
 import cpp from '../assets/cpp.png';
 import python from '../assets/python.png';
-
-import Railway from '../assets/railway.png';
-import Heroku from '../assets/heroku.png';
+// import Railway from '../assets/railway.png';
+// import Heroku from '../assets/heroku.png';
 
 const Work = () => {
+
+  const { lang_dict } = useContext( LangContext );
   
   return (
     <div name='work' className='w-full min-h-screen text-gray-300 bg-[#102037]'>
@@ -30,9 +32,9 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
         <div className='pb-8'>
-          <p className='text-4xl inline font-bold border-b-4 text-gray-300 border-purple-500'>Proyectos</p>
-          <p className='py-4'>Proyectos donde he puesto en práctica mis conocimientos.</p>
-          <p>&#47;&#47; Más proyectos en mi <a className='text-pink-600 text-lg font-bold underline' href="https://github.com/Blairi">Github</a></p>
+          <p className='text-4xl inline font-bold border-b-4 text-gray-300 border-purple-500'>{ lang_dict.work.projects }</p>
+          <p className='py-4'>{ lang_dict.work.subtitle }</p>
+          <p>&#47;&#47; { lang_dict.work.more } <a className='text-pink-600 text-lg font-bold underline' href="https://github.com/Blairi">Github</a></p>
         </div>
 
         {/* Container */}
@@ -41,13 +43,13 @@ const Work = () => {
         >
 
           <WorkExample
-            src={interactiveCard}
-            proyect={'Interactive Card Details'}
+            src={ interactiveCard }
+            proyect={ lang_dict.work.interactiveCard.title }
             href='https://blairi.github.io/interactive-card/'
             source='https://github.com/Blairi/interactive-card'
-            subtitle='Tarjeta interactiva'
-            desc='Formulario de tarjeta bancaria con vista en tiempo real de la misma.'
-            list={ ['Interactividad', 'Custom hook', 'Validación', 'Manejo de estado'] }
+            subtitle={ lang_dict.work.interactiveCard.subtitle }
+            desc={ lang_dict.work.interactiveCard.desc }
+            list={ lang_dict.work.interactiveCard.list }
             techs={[
               {icon: HTML, name: 'HTML'}, 
               {icon: CSS, name: 'CSS'},
@@ -61,13 +63,13 @@ const Work = () => {
           />
 
           <WorkExample
-            src={shortly}
-            proyect={'URL shortening API landing page'}
+            src={ shortly }
+            proyect={ lang_dict.work.shortly.title }
             href='https://blairi.github.io/url-shortening/'
             source='https://github.com/Blairi/url-shortening'
-            subtitle='Acortador de links'
-            desc='En esta aplicación he consumido una API para generar urls apartir de una url introducida y permitiendole al usuario copiarla con un solo boton'
-            list={ ['Consumo de API' ,'Interactividad', 'Custom hook', 'Validación', 'Manejo de estado'] }
+            subtitle={ lang_dict.work.shortly.subtitle }
+            desc={ lang_dict.work.shortly.desc }
+            list={ lang_dict.work.shortly.list }
             techs={[
               {icon: HTML, name: 'HTML'}, 
               {icon: CSS, name: 'CSS'},
@@ -82,12 +84,12 @@ const Work = () => {
 
           <WorkExample
             src={ sortingAlgorithms }
-            proyect={'Algoritmos de ordenamiento'}
+            proyect={ lang_dict.work.sortingAlgorithms.title }
             href='https://blairi.github.io/time-tracking-dashboard/'
             source='https://github.com/Blairi/time-tracking-dashboard'
-            subtitle='Proyecto de investigación'
-            desc='Proyecto para conocer las complejidades temporales de diferentes algoritmos de ordenamiento.'
-            list={ ['Análisis de algoritmos', 'Gráficas', 'Uso de archivos'] }
+            subtitle={ lang_dict.work.sortingAlgorithms.subtitle }
+            desc={ lang_dict.work.sortingAlgorithms.desc }
+            list={ lang_dict.work.sortingAlgorithms.list }
             techs={[
               {icon: cpp, name: 'C++'},
               {icon: python, name: 'Python'},
