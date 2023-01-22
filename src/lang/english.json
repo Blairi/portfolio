@@ -20,5 +20,9 @@
     "intro": "Hi, thanks for visiting my portfolio. A little about me.",
     "bio": "I studied in a technical high school where I studied: 'Programming Technician'. During the preparation I learned to program from flowcharts with DFD, web pages, to creating mobile applications with Java. At the end of my studies in the preparation I decided to expand my knowledge and I studied web development with internet courses, with a good programming base, it was easy for me to adapt. Now I am studying engineering where I take programming subjects such as data structures, algorithms and others.",
     "linkedin": "My Linkedin"
+  },
+  "skills": {
+    "skills": "Skills",
+    "subtitle": "Here are some techs with whom I worked."
   }
 }
