@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { LangContext } from '../context/LangContext'
 import { useForm } from '../hooks/useForm'
 import '../styles/bg.css'
 import Email from './ui/Email'
@@ -27,6 +28,9 @@ const Contact = () => {
       setEnable(false);
     }
   }, [formValues])
+
+
+  const { lang_dict } = useContext( LangContext );
   
 
   return (
@@ -40,9 +44,9 @@ const Contact = () => {
 
         <div className='pb-8'>
 
-          <p className='text-4xl font-bold inline border-b-4 border-purple-500 text-gray-300'>Contacto</p>
+          <p className='text-4xl font-bold inline border-b-4 border-purple-500 text-gray-300'>{ lang_dict.contact.contact }</p>
           <p className='text-gray-300 py-4'>
-            &#47;&#47; Envia el formulario de abajo ó enviame un email a
+            &#47;&#47; { lang_dict.contact.subtitle }
           </p>
 
           <div className='flex justify-center'>
@@ -53,7 +57,7 @@ const Contact = () => {
         <input 
           className='p-2 bg-[#ccd6f6]'
           type="text"
-          placeholder='Nombre'
+          placeholder={ lang_dict.contact.name }
           name='name'
           value={formValues.name}
           onChange={handleInputChange}
@@ -62,7 +66,7 @@ const Contact = () => {
         <input 
           className='my-4 p-2 bg-[#ccd6f6]'
           type="email"
-          placeholder='Email'
+          placeholder={ lang_dict.contact.email }
           name='email'
           value={formValues.email}
           onChange={handleInputChange}
@@ -72,7 +76,7 @@ const Contact = () => {
           className='bg-[#ccd6f6] p-2' 
           name="message" 
           rows="10" 
-          placeholder='Mensaje'
+          placeholder={ lang_dict.contact.message }
           onChange={handleInputChange}
           value={formValues.message}
         ></textarea>
@@ -84,7 +88,7 @@ const Contact = () => {
               'hover:border-purple-600 text-white font-bold text-lg border-2 px-4 py-3 my-8 mx-auto w-40 rounded-md justify-center' 
               : 'bg-gray-300 hover:border-purple-600 text-white font-bold text-lg border-2 px-4 py-3 my-8 mx-auto w-40 rounded-md justify-center' 
             }
-        >Enviar</button>
+        >{ lang_dict.buttons.send }</button>
 
       </form>
     </div>
