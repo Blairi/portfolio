@@ -1,6 +1,7 @@
 {
   "buttons": {
-    "projects": "Ver proyectos"
+    "projects": "Ver proyectos",
+    "send": "Enviar"
   },
   "presentation": {
     "intro": "Hola, mi nombre es",
@@ -52,5 +53,12 @@
     "includes": "Incluye",
     "techs": "Tecnologías",
     "deployed": "Desplegado"
+  },
+  "contact": {
+    "contact": "Contacto",
+    "subtitle": "Envia el formulario de abajo o envíame un email a",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje"
   }
 }
