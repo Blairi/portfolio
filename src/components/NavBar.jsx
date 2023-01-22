@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll';
+import { LangContext } from '../context/LangContext';
 import { LangSwitch } from './ui/LangSwitch';
 import Logo from './ui/Logo';
 
 const NavBar = () => {
+
+  const { lang_dict } = useContext( LangContext );
 
   const [nav, setNav] = useState(false);
 
@@ -22,27 +25,27 @@ const NavBar = () => {
       <ul className='hidden md:flex md:items-center'>
         <li>
           <Link to="home" smooth={true} duration={500} >
-            Inicio
+            { lang_dict.navbar.home }
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500} >
-            Acerca
+          { lang_dict.navbar.about }
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500} >
-            Habilidades
+          { lang_dict.navbar.skills }
           </Link>
         </li>
         <li>
           <Link to="work" smooth={true} duration={500} >
-            Proyectos
+          { lang_dict.navbar.projects }
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500} >
-            Contacto
+          { lang_dict.navbar.contact }
           </Link>
         </li>
 
@@ -61,27 +64,27 @@ const NavBar = () => {
       >
         <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500} >
-            Inicio
+            { lang_dict.navbar.home }
           </Link>
         </li>
         <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500} >
-            Acerca
+            { lang_dict.navbar.about }
           </Link>
         </li>
         <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500} >
-            Habilidades
+            { lang_dict.navbar.skills }
           </Link>
         </li>
         <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="work" smooth={true} duration={500} >
-            Proyectos
+            { lang_dict.navbar.projects }
           </Link>
         </li>
         <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
-            Contacto
+            { lang_dict.navbar.contact }
           </Link>
         </li>
 
