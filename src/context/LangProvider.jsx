@@ -12,7 +12,7 @@ const lang_dict = {
 
 export default function LangProvider({ children }) {
 
-  const [lang, setLang] = useState("ES");
+  const [lang, setLang] = useState("EN");
 
   return (
     <LangContext.Provider value={{ lang_dict: lang_dict[lang], setLang, lang }}>
