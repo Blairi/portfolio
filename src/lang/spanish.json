@@ -6,8 +6,8 @@
   "presentation": {
     "intro": "Hola, mi nombre es",
     "name": "Axel Montiel",
-    "occupation": "Soy programador",
-    "info": "Entusiasta de la tecnologia y de crear aplicaciones, ahora estudiante de ingeniería en computación, en UNAM."
+    "occupation": "Estudiante en ingeniería en Computación en la UNAM",
+    "info": "Tengo un gran interés en el desarrollo de software y la resolución de problemas tecnológicos. Me encanta aprender sobre las últimas tendencias en la industria de la tecnología y buscar formas de aplicar mis conocimientos en proyectos innovadores."
   },
   "navbar": {
     "home": "Inicio",
@@ -19,7 +19,7 @@
   "about": {
     "about": "Acerca",
     "intro": "Hola, gracias por visitar mi portafolió. Aquí un poco acerca de mí.",
-    "bio": "Estudié en una preparotoría técnica en la que lleve la carrera de: 'Técnico en programación'. Durante la preparación aprendí a programar desde diagramas de flujo con DFD, páginas web, hasta crear aplicaciones móviles con Java. Al concluir mis estudios en la preparación decidi ampliar mis conocimientos y estudié desarrollar web con cursos de internet, con una buena base de programación, fue fácil adaptar para mí. Ahora curso una ingeniería donde llevo materias de programación como estructuras de datos, algoritmos y demas.",
+    "bio": "Estudié en una preparotoría técnica en la que lleve la carrera de: 'Técnico en programación'. Durante la preparatoria aprendí a programar desde diagramas de flujo con DFD, páginas web, hasta crear aplicaciones móviles con Java. Al concluir mis estudios en la preparatoria decidí ampliar mis conocimientos y estudié desarrollo web con cursos de internet, con una buena base de programación, fue fácil entender los conceptos. Ahora curso una ingeniería donde llevo materias relacionadas a las ciencias de la computación  como estructuras de datos, matemáticas discretas, algoritmos y más.",
     "linkedin": "Mi Linkedin"
   },
   "skills": {
@@ -46,7 +46,7 @@
       "title": "Algoritmos de Ordenamiento",
       "subtitle": "Proyecto de investigación",
       "desc": "Proyecto para conocer las complejidades temporales de diferentes algoritmos de ordenamiento.",
-      "list": ["Anális de ordenamiento", "Archivos", "Gráficas"]
+      "list": ["Anális de algoritmos", "Archivos", "Gráficas"]
     }
   },
   "workExample": {

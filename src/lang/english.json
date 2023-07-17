@@ -6,8 +6,8 @@
   "presentation": {
     "intro": "Hello, my name is",
     "name": "Axel Montiel",
-    "occupation": "I'm programmer",
-    "info": "Enthusiast of tech and creating applications, now a computer engineering student at UNAM."
+    "occupation": "Computer engineering student at UNAM",
+    "info": "Interesting in software development and tech problem resolution. Loving learning about last trending tech and applying my knowledge to innovation projects."
   },
   "navbar": {
     "home": "Home",
@@ -19,7 +19,7 @@
   "about": {
     "about": "About",
     "intro": "Hi, thanks for visiting my portfolio. A little about me.",
-    "bio": "I studied in a technical high school where I studied: 'Programming Technician'. During the preparation I learned to program from flowcharts with DFD, web pages, to creating mobile applications with Java. At the end of my studies in the preparation I decided to expand my knowledge and I studied web development with internet courses, with a good programming base, it was easy for me to adapt. Now I am studying engineering where I take programming subjects such as data structures, algorithms and others.",
+    "bio": "I studied in a technical high school where studied: 'Programming Technician'. During high school, I learned to program from flowcharts with DFD, and web pages, to creating mobile applications with Java. At the end of my studies in high school, I decided to expand my knowledge and studied web development with internet courses, with a good programming base, it was easy for me to understand the concepts. Now I'm studying engineering and taking computer science courses such as data structures, discrete mathematics, algorithms, and more.",
     "linkedin": "My Linkedin"
   },
   "skills": {
