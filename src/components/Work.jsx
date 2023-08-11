@@ -85,8 +85,8 @@ const Work = () => {
           <WorkExample
             src={ sortingAlgorithms }
             proyect={ lang_dict.work.sortingAlgorithms.title }
-            href='https://blairi.github.io/time-tracking-dashboard/'
-            source='https://github.com/Blairi/time-tracking-dashboard'
+            href='https://github.com/Blairi/sorting-algorithms'
+            source='https://github.com/Blairi/sorting-algorithms'
             subtitle={ lang_dict.work.sortingAlgorithms.subtitle }
             desc={ lang_dict.work.sortingAlgorithms.desc }
             list={ lang_dict.work.sortingAlgorithms.list }
