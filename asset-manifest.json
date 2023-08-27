@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.063f5230.css",
-    "main.js": "/portfolio/static/js/main.6348474b.js",
+    "main.css": "/portfolio/static/css/main.8c40ac0d.css",
+    "main.js": "/portfolio/static/js/main.ba726b1e.js",
     "static/media/interactive-card.png": "/portfolio/static/media/interactive-card.f4f2467731ce65fee4d0.png",
     "static/media/sorting_algorithms.png": "/portfolio/static/media/sorting_algorithms.e908a3ceb3622d211393.png",
     "static/media/shortly.png": "/portfolio/static/media/shortly.dea4e1c0e8caec0bb48f.png",
@@ -21,11 +21,11 @@
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.063f5230.css.map": "/portfolio/static/css/main.063f5230.css.map",
-    "main.6348474b.js.map": "/portfolio/static/js/main.6348474b.js.map"
+    "main.8c40ac0d.css.map": "/portfolio/static/css/main.8c40ac0d.css.map",
+    "main.ba726b1e.js.map": "/portfolio/static/js/main.ba726b1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.063f5230.css",
-    "static/js/main.6348474b.js"
+    "static/css/main.8c40ac0d.css",
+    "static/js/main.ba726b1e.js"
   ]
 }
