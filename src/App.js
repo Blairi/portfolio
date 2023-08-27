@@ -9,8 +9,10 @@ import LangProvider from './context/LangProvider';
 function App() {
   return (
     <LangProvider>
-      <div>
-        <NavBar />
+
+      <NavBar />
+
+      <div className='mt-[80px]'>
         <Home />
         <About />
         <Skills />
