@@ -2,8 +2,8 @@ import { useState } from "react";
 
 import { LangContext } from "./LangContext";
 
-const ES = require('../lang/spanish.json');
-const EN = require('../lang/english.json');
+import ES from '../lang/spanish.json';
+import EN from '../lang/english.json';
 
 const lang_dict = {
   "ES": ES,
