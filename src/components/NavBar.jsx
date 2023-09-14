@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import { LangContext } from '../context/LangContext';
 import { LangSwitch } from './ui/LangSwitch';
 import Logo from './ui/Logo';
+import { Scrollbutton } from './ui';
 
 const offset = -80;
 const duration = 500;
@@ -25,31 +26,46 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <ul className='hidden md:flex md:items-center'>
+      <ul className='hidden md:flex md:items-center md:gap-5'>
         <li>
-          <Link to="home" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.home }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.home } 
+            to="home" 
+            duration={duration} 
+            offset={offset}
+          />
         </li>
         <li>
-          <Link to="about" smooth={true} duration={duration} offset={offset} >
-          { lang_dict.navbar.about }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.about } 
+            to="about" 
+            duration={duration} 
+            offset={offset}
+          />
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={duration} offset={offset} >
-          { lang_dict.navbar.skills }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.skills } 
+            to="skills" 
+            duration={duration} 
+            offset={offset}
+          />
         </li>
         <li>
-          <Link to="work" smooth={true} duration={duration} offset={offset} >
-          { lang_dict.navbar.projects }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.projects } 
+            to="work" 
+            duration={duration} 
+            offset={offset}
+          />
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={duration} offset={offset} >
-          { lang_dict.navbar.contact }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.contact } 
+            to="contact" 
+            duration={duration} 
+            offset={offset}
+          />
         </li>
 
         <LangSwitch />
@@ -66,29 +82,49 @@ const NavBar = () => {
         className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}
       >
         <li className='py-4 text-4xl'>
-          <Link onClick={handleClick} to="home" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.home }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.home } 
+            to="home" 
+            duration={duration} 
+            offset={offset}
+            onClick={handleClick}
+          />
         </li>
         <li className='py-4 text-4xl'>
-          <Link onClick={handleClick} to="about" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.about }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.about } 
+            to="about" 
+            duration={duration} 
+            offset={offset}
+            onClick={handleClick}
+          />
         </li>
         <li className='py-4 text-4xl'>
-          <Link onClick={handleClick} to="skills" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.skills }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.skills } 
+            to="skills" 
+            duration={duration} 
+            offset={offset}
+            onClick={handleClick}
+          />
         </li>
         <li className='py-4 text-4xl'>
-          <Link onClick={handleClick} to="work" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.projects }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.skills } 
+            to="work" 
+            duration={duration} 
+            offset={offset}
+            onClick={handleClick}
+          />
         </li>
         <li className='py-4 text-4xl'>
-          <Link onClick={handleClick} to="contact" smooth={true} duration={duration} offset={offset} >
-            { lang_dict.navbar.contact }
-          </Link>
+          <Scrollbutton 
+            label={ lang_dict.navbar.contact } 
+            to="contact" 
+            duration={duration} 
+            offset={offset}
+            onClick={handleClick}
+          />
         </li>
 
         <div className='mt-5'>
