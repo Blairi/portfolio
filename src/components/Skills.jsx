@@ -8,12 +8,12 @@ import JavaScript from '../assets/javascript.png';
 import GitHub from '../assets/github.png';
 import PHP from '../assets/php.png';
 import Laravel from '../assets/laravel.png';
-import Livewire from '../assets/livewire.png';
 import MySQL from '../assets/mysql.png';
-import SASS from '../assets/sass.png';
 import tailwind from '../assets/tailwind.png';
 import reactIcon from '../assets/react.png';
 import reduxIcon from '../assets/redux.png';
+import java from "../assets/java.png";
+import python from "../assets/python.png";
 
 import TechnologyIcon from './ui/TechnologyIcon';
 import { LangContext } from '../context/LangContext';
@@ -41,8 +41,6 @@ const Skills = () => {
 
           <TechnologyIcon name={'JavaScript'} src={JavaScript}/>
 
-          <TechnologyIcon name={'SASS'} src={SASS}/>
-
           <TechnologyIcon name={'Tailwind'} src={tailwind}/>
 
           <TechnologyIcon name={'React'} src={reactIcon}/>
@@ -55,10 +53,11 @@ const Skills = () => {
 
           <TechnologyIcon name={'Laravel'} src={Laravel}/>
 
-          <TechnologyIcon name={'Livewire'} src={Livewire}/>
-
           <TechnologyIcon name={'MySQL'} src={MySQL}/>
 
+          <TechnologyIcon name={'Java'} src={java} />
+
+          <TechnologyIcon name={'Python'} src={python} />
 
         </div>
 
