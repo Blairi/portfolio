@@ -1,10 +1,6 @@
-import Home from './components/Home';
-import NavBar from './components/NavBar';
-import About from './components/About';
-import Skills from './components/Skills';
-import Work from './components/Work';
-import Contact from './components/Contact';
+import { NavBar } from './components';
 import LangProvider from './context/LangProvider';
+import { About, Contact, Education, Experience, Home, Skills, Work } from './pages';
 
 function App() {
   return (
@@ -12,13 +8,14 @@ function App() {
 
       <NavBar />
 
-      <div className='mt-[80px]'>
-        <Home />
-        <About />
-        <Skills />
-        <Work />
-        <Contact />
-      </div>
+      <Home />
+      <About />
+      <Education />
+      <Experience />
+      <Skills />
+      <Work />
+      <Contact />
+
     </LangProvider>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 
 import '../styles/bg.css'
 
@@ -14,19 +14,23 @@ import reactIcon from '../assets/react.png';
 import reduxIcon from '../assets/redux.png';
 import java from "../assets/java.png";
 import python from "../assets/python.png";
+import cpp from "../assets/cpp.png";
+import c from "../assets/c.png";
+import springboot from "../assets/springboot.png";
 
-import TechnologyIcon from './ui/TechnologyIcon';
+
 import { LangContext } from '../context/LangContext';
+import { TechnologyIcon } from '../components/ui';
 
-const Skills = () => {
+export const Skills = () => {
 
   const { lang_dict } = useContext( LangContext );
 
   return (
-    <div name='skills' className='w-full bg text-gray-300 py-36 overflow-hidden'>
+    <div name='skills' className='bg grid place-items-center px-3 py-3 min-h-screen'>
       
       {/* Container */}
-      <div className='mx-auto flex flex-col justify-center w-[95%] max-w-[1000px] rounded-md bg-black p-4 md:p-8'>
+      <div className='container rounded-md text-gray-300 bg-black p-4 md:p-8'>
 
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-500'>{ lang_dict.skills.skills }</p>
@@ -34,6 +38,10 @@ const Skills = () => {
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
+
+          <TechnologyIcon name={'C'} src={c} />
+
+          <TechnologyIcon name={'C ++'} src={cpp} />
 
           <TechnologyIcon name={'HTML'} src={HTML}/>
 
@@ -57,6 +65,8 @@ const Skills = () => {
 
           <TechnologyIcon name={'Java'} src={java} />
 
+          <TechnologyIcon name={'Springboot'} src={springboot} />
+
           <TechnologyIcon name={'Python'} src={python} />
 
         </div>
@@ -66,5 +76,3 @@ const Skills = () => {
     </div>
   )
 }
-
-export default Skills

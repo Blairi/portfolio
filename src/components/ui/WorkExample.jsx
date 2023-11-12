@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { LangContext } from '../../context/LangContext'
 
-const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, deploys = [] }) => {
+export const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, deploys = [] }) => {
 
   const { lang_dict } = useContext( LangContext );
 
@@ -103,5 +103,3 @@ const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, techs, 
     </div>
   )
 }
-
-export default WorkExample

@@ -14,13 +14,53 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "education": "Education",
+    "laboralExperience": "Laboral Experience"
   },
   "about": {
     "about": "About",
     "intro": "Hi, thanks for visiting my portfolio. A little about me.",
     "bio": "I studied in a technical high school where studied: 'Programming Technician'. During high school, I learned to program from flowcharts with DFD, and web pages, to creating mobile applications with Java. At the end of my studies in high school, I decided to expand my knowledge and studied web development with internet courses, with a good programming base, it was easy for me to understand the concepts. Now I'm studying engineering and taking computer science courses such as data structures, discrete mathematics, algorithms, and more.",
     "linkedin": "My Linkedin"
+  },
+  "education": {
+    "education": "Education",
+    "educationList": [
+      {
+        "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
+        "subtitle": "Bachelor's Degree in Computer Engineering",
+        "date": "2021-2026",
+        "place": "Ciudad Universitaria, Ciudad de México",
+        "desc": ""
+      },
+      {
+        "title": "Colegio de Estudios Científicos y Tecnológicos del Estado de México Tultepec",
+        "subtitle": "Technical Degree in Programming, Software Development",
+        "date": "2017-2020",
+        "place": "Tultepec, Estado de México",
+        "desc": ""
+      }
+    ]
+  },
+  "laboralExperience": {
+    "laboralExperience": "Laboral Experience",
+    "laboralExperienceList": [
+      {
+        "title": "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas",
+        "subtitle": "Frontend Developer in Remote Laboratory Development",
+        "date": "Jul. 2023 - Aug. 2023",
+        "place": "Ciudad Universitaria, Ciudad de México",
+        "desc": "I led the Frontend part of the project, advising and collaborating with my team and other areas within the project. I proposed and implemented solutions to meet the requirements, working with Javascript, Python, HTML, and CSS, along with libraries such as React, Redux, tailwindcss, react-diagrams, and ROS. I achieved significant progress by developing the workspace section, component catalogs, and state management; providing a solid functional foundation for future expansions."
+      },
+      {
+        "title": "Universidad Politécnica del Valle de México",
+        "subtitle": "Programmer in the Development of a Course Platform for a University",
+        "date": "Oct. 2019 - Mar. 2020",
+        "place": "Tultitlan, Estado de México",
+        "desc": "I excelled as a standout student in programming and was chosen to participate in the DUAL program, which involves the professional placement of students. I collaborated with my team from requirement gathering to the early stages of development. I worked with PHP, SQL, HTML, and CSS. I developed the login module and created initial prototypes to visualize the functionality and user interface of the proposed platform."
+      }
+    ]
   },
   "skills": {
     "skills": "Skills",

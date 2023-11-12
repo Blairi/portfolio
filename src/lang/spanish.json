@@ -14,13 +14,53 @@
     "about": "Acerca",
     "skills": "Habilidades",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "education": "Educación",
+    "laboralExperience": "Experiencia Laboral"
   },
   "about": {
     "about": "Acerca",
     "intro": "Hola, gracias por visitar mi portafolió. Aquí un poco acerca de mí.",
     "bio": "Estudié en una preparotoría técnica en la que lleve la carrera de: 'Técnico en programación'. Durante la preparatoria aprendí a programar desde diagramas de flujo con DFD, páginas web, hasta crear aplicaciones móviles con Java. Al concluir mis estudios en la preparatoria decidí ampliar mis conocimientos y estudié desarrollo web con cursos de internet, con una buena base de programación, fue fácil entender los conceptos. Ahora curso una ingeniería donde llevo materias relacionadas a las ciencias de la computación  como estructuras de datos, matemáticas discretas, algoritmos y más.",
     "linkedin": "Mi Linkedin"
+  },
+  "education": {
+    "education": "Educación",
+    "educationList": [
+      {
+        "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
+        "subtitle": "Grado en Ingeniería en Computación",
+        "date": "2021-2026",
+        "place": "Ciudad Universitaria, Ciudad de México",
+        "desc": ""
+      },
+      {
+        "title": "Colegio de Estudios Científicos y Tecnológicos del Estado de México Tultepec",
+        "subtitle": "Carrera técnica en Programación, Desarollo de Software",
+        "date": "2017-2020",
+        "place": "Tultepec, Estado de México",
+        "desc": ""
+      }
+    ]
+  },
+  "laboralExperience": {
+    "laboralExperience": "Experiencia Laboral",
+    "laboralExperienceList": [
+      {
+        "title": "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas",
+        "subtitle": "Programador Frontend en el desarrollo de Laboratorio Remoto",
+        "date": "Jul. 2023 - Ago. 2023",
+        "place": "Ciudad Universitaria, Ciudad de México",
+        "desc": "Lideré la parte Frontend del proyecto. Asesoré y colaboré con mi equipo y con otras areas dentro del proyecto. Propusé e implementé soluciones para cumplir con los requrimientos. Trabajé con Javascript, Python, HTML y CSS; con bibliotecas como React, Redux, tailwindcss, react-diagrams y ROS. Logré un avance significativo al desarrollar la sección de workspace, catálogos de componentes y manejo de estado; proporcionando una buena base funcional para futuras expansiones."
+      },
+      {
+        "title": "Universidad Politécnica del Valle de México",
+        "subtitle": "Programador en el desarrollo de Plataforma de Cursos para una Universidad",
+        "date": "Oct. 2019 - Mar. 2020",
+        "place": "Tultitlan, Estado de México",
+        "desc": "Destaqué como alumno sobresaliente en programación y fui elegido para participar en el programa DUAL, que implica la inserción laboral de estudiantes. Colaboré con mi equipo desde la toma de requerimientos hasta las primeras fases de desarrollo. Trabajé con PHP, SQL, HTML y CSS. Desarrollé el módulo de inicio de sesión, prototipos iniciales para visualizar la funcionalidad e interfaz de usuario de la plataforma propuesta."
+      }
+    ]
   },
   "skills": {
     "skills": "Habilidades",

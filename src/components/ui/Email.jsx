@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Email = () => {
+export const Email = () => {
 
   const data = {
-    user: 'axel.avi.fer',
-    domain: 'gmail.com',
+    user: 'axel.montiel',
+    domain: 'ieee.org',
   }
 
   return (
@@ -16,5 +16,3 @@ const Email = () => {
     </a>
   )
 }
-
-export default Email

@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { LangContext } from '../context/LangContext';
-import WorkExample from './ui/WorkExample';
+
 
 import interactiveCard from '../assets/interactive-card.png';
 import shortly from '../assets/shortly.png';
@@ -19,25 +19,27 @@ import reactIcon from '../assets/react.png';
 import ghPages from '../assets/github.png';
 import cpp from '../assets/cpp.png';
 import python from '../assets/python.png';
+import { WorkExample } from '../components/ui';
 // import Railway from '../assets/railway.png';
 // import Heroku from '../assets/heroku.png';
 
-const Work = () => {
+export const Work = () => {
 
   const { lang_dict } = useContext( LangContext );
   
   return (
-    <div name='work' className='w-full min-h-screen text-gray-300 bg-[#102037]'>
+    <div name='work' className='min-h-screen bg-[#102037]'>
 
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='container mx-auto px-3 py-5 text-gray-300'>
 
         <div className='pb-8'>
-          <p className='text-4xl inline font-bold border-b-4 text-gray-300 border-purple-500'>{ lang_dict.work.projects }</p>
+
+          <p className='text-4xl inline font-bold border-b-4 border-purple-500'>{ lang_dict.work.projects }</p>
           <p className='py-4'>{ lang_dict.work.subtitle }</p>
           <p>&#47;&#47; { lang_dict.work.more } <a className='text-pink-600 text-lg font-bold underline' href="https://github.com/Blairi">Github</a></p>
+
         </div>
 
-        {/* Container */}
         <div
           className='space-y-10'
         >
@@ -103,5 +105,3 @@ const Work = () => {
     </div>
   )
 }
-
-export default Work
