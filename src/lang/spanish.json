@@ -68,20 +68,20 @@
   },
   "work": {
     "projects": "Proyectos",
-    "subtitle": "Proyectos donde he puesto en práctica mis conocimientos.",
-    "more": "Más proyectos en mi",
+    "subtitle": "Proyectos donde he puesto en práctica mis conocimientos tanto prácticos y como teóricos.",
+    "more": "Más proyectos en mi ",
     "interactiveCard": {
       "title": "Tarjeta Interactiva",
       "subtitle": "Tarjeta Interactiva con detalles",
       "desc": "Formulario de tarjeta bancaria con vista en tiempo real de la misma.",
       "list": ["Interactividad", "Custom hook", "Validación", "Manejo de estado"]
     },
-    "shortly": {
-      "title": "Acortador de links. Landing Page.",
-      "subtitle": "Acortador de links",
-      "desc": "En esta aplicación he consumido una API para generar urls apartir de una url introducida y permitiéndole al usuario copiarla con un solo botón.",
-      "list": ["Consumo de API", "Interactividad", "Custom hook", "Validación", "Manejo de estado"]
-    },
+    "sistemaPedidos": {
+      "title": "Sistema de Pedidos",
+      "subtitle": "Proyecto de Universidad",
+      "desc": "Proyecto de la universidad donde integre algoritmos de ordenamiento, estructuras de datos, grafos y arboles. Ademas de implementar una mini base de datos con archivos de texto.",
+      "list": ["Grafos", "Arboles", "Archivos", "Algoritmos de Ordenamiento"]
+   },
     "sortingAlgorithms": {
       "title": "Algoritmos de Ordenamiento",
       "subtitle": "Proyecto de investigación",
