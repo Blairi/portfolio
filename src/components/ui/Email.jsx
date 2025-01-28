@@ -3,8 +3,8 @@ import React from 'react'
 export const Email = () => {
 
   const data = {
-    user: 'axel.montiel',
-    domain: 'ieee.org',
+    user: 'axel.avi.fer',
+    domain: 'gmail.com',
   }
 
   return (
