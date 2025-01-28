@@ -33,7 +33,7 @@ export const About = () => {
             <p className=''>
               { lang_dict.about.bio }
             </p>
-            <a className='text-pink-600 underline font-bold' href="https://www.linkedin.com/in/axel-montiel-000848202/">
+            <a className='text-pink-600 underline font-bold' href="https://www.linkedin.com/in/axel-montiel/">
               { lang_dict.about.linkedin }
             </a>
           </div>
