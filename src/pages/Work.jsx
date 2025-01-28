@@ -65,26 +65,6 @@ export const Work = () => {
           />
 
           <WorkExample
-            src={ shortly }
-            proyect={ lang_dict.work.shortly.title }
-            href='https://blairi.github.io/url-shortening/'
-            source='https://github.com/Blairi/url-shortening'
-            subtitle={ lang_dict.work.shortly.subtitle }
-            desc={ lang_dict.work.shortly.desc }
-            list={ lang_dict.work.shortly.list }
-            techs={[
-              {icon: HTML, name: 'HTML'}, 
-              {icon: CSS, name: 'CSS'},
-              {icon: JavaScript, name: 'Javascript'},
-              {icon: reactIcon, name: 'React'},
-              {icon: tailwind, name: 'Tailwind'},
-            ]}
-            deploys={[
-              {icon: ghPages, name: 'Github Pages'},
-            ]}
-          />
-
-          <WorkExample
             src={ sortingAlgorithms }
             proyect={ lang_dict.work.sortingAlgorithms.title }
             href='https://github.com/Blairi/sorting-algorithms'
