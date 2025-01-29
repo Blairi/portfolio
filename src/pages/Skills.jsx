@@ -27,10 +27,10 @@ export const Skills = () => {
   const { lang_dict } = useContext( LangContext );
 
   return (
-    <div name='skills' className='bg grid place-items-center px-3 py-3 min-h-screen'>
+    <div name='skills' className='bg py-10 grid place-items-center min-h-screen'>
       
       {/* Container */}
-      <div className='container rounded-md text-gray-300 bg-black p-4 md:p-8'>
+      <div className='custom-container rounded-md text-gray-300 bg-black p-5 sm:p-10'>
 
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-500'>{ lang_dict.skills.skills }</p>

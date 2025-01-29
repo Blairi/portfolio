@@ -28,9 +28,9 @@ export const Work = () => {
   const { lang_dict } = useContext( LangContext );
   
   return (
-    <div name='work' className='min-h-screen bg-[#102037]'>
+    <div name='work' className='min-h-screen grid place-items-center bg-[#102037] py-10'>
 
-      <div className='container mx-auto px-3 py-5 text-gray-300'>
+      <div className='custom-container mx-auto text-gray-300'>
 
         <div className='pb-8'>
 

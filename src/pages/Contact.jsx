@@ -34,9 +34,9 @@ export const Contact = () => {
   
 
   return (
-    <div name='contact' className='min-h-screen px-3 grid place-items-center bg'>
+    <div name='contact' className='min-h-screen px-3 grid place-items-center bg py-10'>
 
-      <div className='bg-black container rounded-lg p-4 space-y-5'>
+      <div className='bg-black custom-container rounded-lg p-5 md:p-10 space-y-5'>
 
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-purple-500 text-gray-300'>{ lang_dict.contact.contact }</p>
@@ -52,7 +52,7 @@ export const Contact = () => {
         <form
           method='POST' 
           action="https://getform.io/f/69d998eb-26f7-4fc1-bfb1-365c209a1f39" 
-          className='flex flex-col md:w-[50%] max-w-[800px] mx-auto'
+          className='flex flex-col max-w-[800px] mx-auto'
         >
 
           <input 

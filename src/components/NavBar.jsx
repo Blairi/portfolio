@@ -20,7 +20,7 @@ export const NavBar = () => {
   return (
     <div className='fixed top-0 left-0 w-full bg-[#0a192f] shadow-xl z-10'>
 
-      <div className='container mx-auto py-3 px-2 flex justify-between items-center text-gray-300 font-bold'>
+      <div className='custom-container py-3 flex justify-between items-center text-gray-300 font-bold'>
 
         <div>
           <Link className='hover:cursor-pointer' to="home" smooth={true} duration={duration} offset={offset}>

@@ -9,10 +9,10 @@ export const Education = () => {
   return (
     <div
       name="education"
-      className="bg min-h-screen grid place-items-center px-3"
+      className="bg min-h-screen grid place-items-center"
     >
 
-      <div className="bg-[#102037] p-10 container rounded-lg space-y-5">
+      <div className="bg-[#102037] p-10 custom-container rounded-lg space-y-5">
 
         <h2 className='text-4xl text-white font-bold inline border-b-4 border-pink-600'>
           {lang_dict.education.education}

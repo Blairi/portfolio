@@ -12,7 +12,7 @@ export const Experience = () => {
       className="bg-[#102037] min-h-screen grid place-items-center"
     >
 
-      <div className="p-10 container rounded-lg space-y-5">
+      <div className="custom-container py-10 rounded-lg space-y-5">
 
         <h2 className='text-4xl text-white font-bold inline border-b-4 border-pink-600'>
           {lang_dict.laboralExperience.laboralExperience}

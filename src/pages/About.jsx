@@ -8,11 +8,11 @@ export const About = () => {
   return (
     <div name='about' className='min-h-screen flex items-center justify-center bg-[#102037] text-gray-300 px-3'>
 
-      <div className='container xl:px-0 grid place-items-center'>
+      <div className='custom-container'>
 
-        <div className='grid grid-cols-2 gap-8'>
+        <div className='sm:grid sm:grid-cols-2 md:gap-8'>
 
-          <div className='sm:text-right pb-8 pl-4'>
+          <div className='pb-8 sm:text-right'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               { lang_dict.about.about }
             </p>
@@ -30,7 +30,7 @@ export const About = () => {
             </p>
           </div>
           <div>
-            <p className=''>
+            <p>
               { lang_dict.about.bio }
             </p>
             <a className='text-pink-600 underline font-bold' href="https://www.linkedin.com/in/axel-montiel/">
