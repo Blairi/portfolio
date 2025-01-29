@@ -15,3 +15,24 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
+.custom-container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+@media (min-width: 608px) {
+    .custom-container{
+        width: 80%;
+    }
+}
+@media (min-width: 850px) {
+    .custom-container{
+        width: 90%;
+    }
+}
+@media (min-width: 1400px) {
+    .custom-container{
+        width: 60%;
+    }
+}
