@@ -87,6 +87,12 @@
       "subtitle": "Investigation project",
       "desc": "Project to view the time complexity of different sorting algorithms.",
       "list": ["Algorithm analysis", "Files", "Graphs"]
+    },
+    "liverHack": {
+      "title": "LiverHack2025 - Hackathon Winner",
+      "subtitle": "Recruitment Platform with Django Integration and Gemini Chatbot",
+      "desc": "Won first place at LiverHack, an event organized by Liverpool, among six teams from different universities by developing and deploying a production-ready recruitment management web application.",
+      "list": ["Recruitment platform with integrated chatbot", "Job posting system", "Hiring status management to increase productivity", "Functional MVP delivery with collaborative teamwork"]
     }
   },
   "workExample": {

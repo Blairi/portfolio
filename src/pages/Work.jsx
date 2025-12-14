@@ -5,6 +5,7 @@ import { LangContext } from '../context/LangContext';
 import interactiveCard from '../assets/interactive-card.png';
 import shortly from '../assets/shortly.png';
 import sortingAlgorithms from '../assets/sorting_algorithms.png'
+import liverHack from '../assets/liverhack.png';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
@@ -19,6 +20,9 @@ import reactIcon from '../assets/react.png';
 import ghPages from '../assets/github.png';
 import cpp from '../assets/cpp.png';
 import python from '../assets/python.png';
+import django from '../assets/django.png';
+import gemini from '../assets/gemini.png';
+import git from '../assets/git.png';
 import { WorkExample } from '../components/ui';
 // import Railway from '../assets/railway.png';
 // import Heroku from '../assets/heroku.png';
@@ -45,22 +49,17 @@ export const Work = () => {
         >
 
           <WorkExample
-            src={ interactiveCard }
-            proyect={ lang_dict.work.interactiveCard.title }
-            href='https://blairi.github.io/interactive-card/'
-            source='https://github.com/Blairi/interactive-card'
-            subtitle={ lang_dict.work.interactiveCard.subtitle }
-            desc={ lang_dict.work.interactiveCard.desc }
-            list={ lang_dict.work.interactiveCard.list }
+            src={ liverHack }
+            proyect={ lang_dict.work.liverHack.title }
+            href='https://www.linkedin.com/posts/axel-montiel_liverhack2025-activity-7384693609763123200-QCTI'
+            subtitle={ lang_dict.work.liverHack.subtitle }
+            desc={ lang_dict.work.liverHack.desc }
+            list={ lang_dict.work.liverHack.list }
             techs={[
-              {icon: HTML, name: 'HTML'}, 
-              {icon: CSS, name: 'CSS'},
-              {icon: JavaScript, name: 'Javascript'},
-              {icon: SASS, name: 'SASS'},
-              {icon: reactIcon, name: 'React'},
-            ]}
-            deploys={[
-              {icon: ghPages, name: 'Github Pages'},
+              {icon: python, name: 'Python'},
+              {icon: django, name: 'Django'},
+              {icon: git, name: 'Git'},
+              {icon: gemini, name: 'Gemini'},
             ]}
           />
 
@@ -68,7 +67,6 @@ export const Work = () => {
             src={ sortingAlgorithms }
             proyect={ lang_dict.work.sortingAlgorithms.title }
             href='https://github.com/Blairi/sorting-algorithms'
-            source='https://github.com/Blairi/sorting-algorithms'
             subtitle={ lang_dict.work.sortingAlgorithms.subtitle }
             desc={ lang_dict.work.sortingAlgorithms.desc }
             list={ lang_dict.work.sortingAlgorithms.list }

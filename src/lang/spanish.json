@@ -87,6 +87,12 @@
       "subtitle": "Proyecto de investigación",
       "desc": "Proyecto para conocer las complejidades temporales de diferentes algoritmos de ordenamiento.",
       "list": ["Anális de algoritmos", "Archivos", "Gráficas"]
+    },
+    "liverHack": {
+      "title": "LiverHack2025 - Ganador del Hackathon",
+      "subtitle": "Plataforma de Reclutamiento con Integración de Django y Chatbot Gemini",
+      "desc": "Gané el primer lugar en LiverHack, evento organizado por Liverpool, entre seis equipos de diferentes universidades al desarrollar e implementar una aplicación web de gestión de reclutamiento lista para producción.",
+      "list": ["Plataforma de reclutamiento con chatbot integrado", "Sistema de publicación de ofertas de trabajo", "Gestión de estado de contrataciones para aumentar productividad", "Entrega de MVP funcional con trabajo colaborativo"]
     }
   },
   "workExample": {
