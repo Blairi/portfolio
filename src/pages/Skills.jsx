@@ -6,10 +6,7 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import GitHub from '../assets/github.png';
-import PHP from '../assets/php.png';
-import Laravel from '../assets/laravel.png';
 import MySQL from '../assets/mysql.png';
-import tailwind from '../assets/tailwind.png';
 import reactIcon from '../assets/react.png';
 import reduxIcon from '../assets/redux.png';
 import java from "../assets/java.png";
@@ -17,6 +14,9 @@ import python from "../assets/python.png";
 import cpp from "../assets/cpp.png";
 import c from "../assets/c.png";
 import springboot from "../assets/springboot.png";
+
+import postman from "../assets/postman-icon.png";
+import gcloud from "../assets/google-cloud.png";
 
 
 import { LangContext } from '../context/LangContext';
@@ -39,8 +39,6 @@ export const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
 
-          <TechnologyIcon name={'C'} src={c} />
-
           <TechnologyIcon name={'C ++'} src={cpp} />
 
           <TechnologyIcon name={'HTML'} src={HTML}/>
@@ -49,17 +47,11 @@ export const Skills = () => {
 
           <TechnologyIcon name={'JavaScript'} src={JavaScript}/>
 
-          <TechnologyIcon name={'Tailwind'} src={tailwind}/>
-
           <TechnologyIcon name={'React'} src={reactIcon}/>
 
           <TechnologyIcon name={'Redux'} src={reduxIcon}/>
           
           <TechnologyIcon name={'GitHub'} src={GitHub}/>
-
-          <TechnologyIcon name={'PHP'} src={PHP}/>
-
-          <TechnologyIcon name={'Laravel'} src={Laravel}/>
 
           <TechnologyIcon name={'MySQL'} src={MySQL}/>
 
@@ -67,7 +59,11 @@ export const Skills = () => {
 
           <TechnologyIcon name={'Springboot'} src={springboot} />
 
+          <TechnologyIcon name={'Postman'} src={postman} />
+
           <TechnologyIcon name={'Python'} src={python} />
+
+          <TechnologyIcon name={'Google Cloud'} src={gcloud} />
 
         </div>
 
