@@ -2,21 +2,21 @@ import { useContext } from 'react'
 
 import '../styles/bg.css'
 
+import java from "../assets/java.png";
+import springboot from "../assets/springboot.png";
+import MySQL from '../assets/mysql.png';
+import postman from "../assets/postman-icon.png";
+import python from "../assets/python.png";
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
+import sass from '../assets/sass.png';
 import JavaScript from '../assets/javascript.png';
-import GitHub from '../assets/github.png';
-import MySQL from '../assets/mysql.png';
 import reactIcon from '../assets/react.png';
 import reduxIcon from '../assets/redux.png';
-import java from "../assets/java.png";
-import python from "../assets/python.png";
+import GitHub from '../assets/github.png';
+// import gcloud from "../assets/google-cloud.png";
 import cpp from "../assets/cpp.png";
 import c from "../assets/c.png";
-import springboot from "../assets/springboot.png";
-
-import postman from "../assets/postman-icon.png";
-import gcloud from "../assets/google-cloud.png";
 
 
 import { LangContext } from '../context/LangContext';
@@ -39,11 +39,21 @@ export const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
 
-          <TechnologyIcon name={'C ++'} src={cpp} />
+          <TechnologyIcon name={'Java'} src={java} />
+
+          <TechnologyIcon name={'Spring Boot'} src={springboot} />
+
+          <TechnologyIcon name={'MySQL'} src={MySQL}/>
+
+          <TechnologyIcon name={'Postman'} src={postman} />
+
+          <TechnologyIcon name={'Python'} src={python} />
 
           <TechnologyIcon name={'HTML'} src={HTML}/>
 
           <TechnologyIcon name={'CSS'} src={CSS}/>
+
+          <TechnologyIcon name={'SASS'} src={sass}/>
 
           <TechnologyIcon name={'JavaScript'} src={JavaScript}/>
 
@@ -53,17 +63,11 @@ export const Skills = () => {
           
           <TechnologyIcon name={'GitHub'} src={GitHub}/>
 
-          <TechnologyIcon name={'MySQL'} src={MySQL}/>
+          {/* <TechnologyIcon name={'Google Cloud'} src={gcloud} /> */}
 
-          <TechnologyIcon name={'Java'} src={java} />
+          <TechnologyIcon name={'C ++'} src={cpp} />
 
-          <TechnologyIcon name={'Springboot'} src={springboot} />
-
-          <TechnologyIcon name={'Postman'} src={postman} />
-
-          <TechnologyIcon name={'Python'} src={python} />
-
-          <TechnologyIcon name={'Google Cloud'} src={gcloud} />
+          <TechnologyIcon name={'C'} src={c} />
 
         </div>
 
