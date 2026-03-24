@@ -28,6 +28,13 @@
     "education": "Education",
     "educationList": [
       {
+        "title": "Diploma: Development of Systems with JAVA Technology (Spring)",
+        "subtitle": "Universidad Nacional Autónoma de México. Software Engineering",
+        "date": "Feb. 2026 - Sept. 2026",
+        "place": "Mexico City",
+        "desc": "Intensive 240-hour program. Specialized diploma in the creation of secure, scalable, distributed, and high-performance enterprise applications. As the final and integrating project of the program, I am developing a 'Marketplace of Professional On-Demand Services', applying data connectivity and persistence concepts. Mastery of modern Java ecosystem for the industry, integrating persistence solutions and organizing components in distributed applications. Use of IntelliJ IDE for the complete software development cycle."
+      },
+      {
         "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
         "subtitle": "Bachelor's Degree in Computer Engineering",
         "date": "2021-2026",
@@ -93,6 +100,20 @@
       "subtitle": "Recruitment Platform with Django Integration and Gemini Chatbot",
       "desc": "Won first place at LiverHack, an event organized by Liverpool, among six teams from different universities by developing and deploying a production-ready recruitment management web application.",
       "list": ["Recruitment platform with integrated chatbot", "Job posting system", "Hiring status management to increase productivity", "Functional MVP delivery with collaborative teamwork"]
+    },
+    "diplomadoJava": {
+      "title": "Diplomado Java",
+      "subtitle": "Educational Repository",
+      "desc": "Repository that brings together all exercises, practices, and projects developed during the Java Technologies Diploma course. Organized in two main folders reflecting diploma progress: Week 1 with fundamental concepts (variables, operators, conditionals, loops, arrays, and functions) and Second Delivery with advanced projects in object-oriented programming, exception handling, interfaces, enumerations, and data structures (ArrayList, LinkedList, HashMap, Queues, etc.).",
+      "list": ["Java Fundamental", "Object-Oriented Programming", "Data Structures", "IntelliJ Project"],
+      "github": "https://github.com/Blairi/desarrollo-tecnologias-java"
+    },
+    "learnSpringFramework": {
+      "title": "Backend Portfolio with Java and Spring",
+      "subtitle": "Production Applications",
+      "desc": "Educational portfolio demonstrating practical knowledge in modern backend application development with Java and Spring Framework. Contains multiple progressive projects from fundamental concepts to complex microservices and RESTful services architectures. Includes: Foundations, Learn Spring Framework, Learn Spring Boot, RESTful Web Services, JPA & Hibernate, My First Web App, and Full Stack. Technology Stack: Java 17+, Spring Boot 3.1.x, Maven, JPA/Hibernate, Spring Security, JUnit.",
+      "list": ["Spring Boot", "RESTful APIs", "JPA & Hibernate", "Spring Security", "Microservices"],
+      "github": "https://github.com/Blairi/learn-spring-framework"
     }
   },
   "workExample": {

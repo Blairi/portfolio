@@ -23,6 +23,10 @@ import python from '../assets/python.png';
 import django from '../assets/django.png';
 import gemini from '../assets/gemini.png';
 import git from '../assets/git.png';
+import java from '../assets/java.png';
+import springboot from '../assets/springboot.png';
+import mysql from '../assets/mysql.png';
+import postman from '../assets/postman-icon.png';
 import { WorkExample } from '../components/ui';
 // import Railway from '../assets/railway.png';
 // import Heroku from '../assets/heroku.png';
@@ -60,6 +64,34 @@ export const Work = () => {
               {icon: django, name: 'Django'},
               {icon: git, name: 'Git'},
               {icon: gemini, name: 'Gemini'},
+            ]}
+          />
+
+          <WorkExample
+            src={ ghPages }
+            proyect={ lang_dict.work.diplomadoJava.title }
+            href={ lang_dict.work.diplomadoJava.github }
+            subtitle={ lang_dict.work.diplomadoJava.subtitle }
+            desc={ lang_dict.work.diplomadoJava.desc }
+            list={ lang_dict.work.diplomadoJava.list }
+            techs={[
+              {icon: java, name: 'Java'},
+              {icon: git, name: 'Git'},
+            ]}
+          />
+
+          <WorkExample
+            src={ ghPages }
+            proyect={ lang_dict.work.learnSpringFramework.title }
+            href={ lang_dict.work.learnSpringFramework.github }
+            subtitle={ lang_dict.work.learnSpringFramework.subtitle }
+            desc={ lang_dict.work.learnSpringFramework.desc }
+            list={ lang_dict.work.learnSpringFramework.list }
+            techs={[
+              {icon: java, name: 'Java'},
+              {icon: springboot, name: 'Spring Boot'},
+              {icon: mysql, name: 'MySQL'},
+              {icon: postman, name: 'Postman'},
             ]}
           />
 

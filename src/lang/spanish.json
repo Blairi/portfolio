@@ -28,6 +28,13 @@
     "education": "Educación",
     "educationList": [
       {
+        "title": "Diplomado: Desarrollo de Sistemas con Tecnología JAVA (Spring)",
+        "subtitle": "Universidad Nacional Autónoma de México. Ingeniería de software",
+        "date": "Feb. 2026 - Sept. 2026",
+        "place": "Ciudad de México",
+        "desc": "Programa intensivo de 240 horas. Diplomado especializado en la creación de aplicaciones empresariales seguras, escalables, distribuidas y de alto desempeño. Como proyecto final e integrador del programa, me encuentro desarrollando un 'Marketplace de Servicios Profesionales On-Demand', aplicando conceptos de conectividad y persistencia de datos. Dominio del ecosistema moderno de Java para la industria, integrando soluciones de persistencia y organizando componentes en aplicaciones distribuidas. Uso de IDE IntelliJ para el ciclo completo de desarrollo de software."
+      },
+      {
         "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
         "subtitle": "Grado en Ingeniería en Computación",
         "date": "2021-2026",
@@ -93,6 +100,20 @@
       "subtitle": "Plataforma de Reclutamiento con Integración de Django y Chatbot Gemini",
       "desc": "Gané el primer lugar en LiverHack, evento organizado por Liverpool, entre seis equipos de diferentes universidades al desarrollar e implementar una aplicación web de gestión de reclutamiento lista para producción.",
       "list": ["Plataforma de reclutamiento con chatbot integrado", "Sistema de publicación de ofertas de trabajo", "Gestión de estado de contrataciones para aumentar productividad", "Entrega de MVP funcional con trabajo colaborativo"]
+    },
+    "diplomadoJava": {
+      "title": "Diplomado Java",
+      "subtitle": "Repositorio Educativo",
+      "desc": "Repositorio que reúne todos los ejercicios, prácticas y proyectos desarrollados durante el curso de Diplomado en Tecnologías Java. Organizado en dos carpetas principales que reflejan el progreso del diplomado: Semana 1 con conceptos fundamentales (variables, operadores, condicionales, ciclos, arreglos y funciones) y Segunda Entrega con proyectos avanzados en programación orientada a objetos, manejo de excepciones, interfaces, enumeraciones y estructuras de datos (ArrayList, LinkedList, HashMap, Queues, etc.).",
+      "list": ["Java Fundamental", "Programación Orientada a Objetos", "Estructuras de Datos", "Proyecto en IntelliJ"],
+      "github": "https://github.com/Blairi/desarrollo-tecnologias-java"
+    },
+    "learnSpringFramework": {
+      "title": "Portafolio Backend con Java y Spring",
+      "subtitle": "Aplicaciones de Producción",
+      "desc": "Portafolio educativo que demuestra conocimientos prácticos en desarrollo de aplicaciones backend moderna con Java y Spring Framework. Contiene múltiples proyectos progresivos desde conceptos fundamentales hasta arquitecturas complejas de microservicios y servicios RESTful. Incluye: Foundations, Learn Spring Framework, Learn Spring Boot, RESTful Web Services, JPA & Hibernate, My First Web App, y Full Stack. Stack tecnológico: Java 17+, Spring Boot 3.1.x, Maven, JPA/Hibernate, Spring Security, JUnit.",
+      "list": ["Spring Boot", "RESTful APIs", "JPA & Hibernate", "Spring Security", "Microservicios"],
+      "github": "https://github.com/Blairi/learn-spring-framework"
     }
   },
   "workExample": {

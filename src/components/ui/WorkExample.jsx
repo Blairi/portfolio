@@ -34,7 +34,7 @@ export const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, 
         <h4 className='text-lg mb-3'>{subtitle}</h4>
         <p>{desc}</p>
         <p className='font-bold text-lg text-purple-500'>{lang_dict.workExample.includes}</p>
-        <div className='flex text-lg flex-wrap ml-5'>
+        <ul className='text-lg ml-5 list-disc space-y-1'>
           {
             list.map((item, index) => {
               return <li
@@ -45,7 +45,7 @@ export const WorkExample = ({ src, proyect, href, source, subtitle, desc, list, 
               </li>
             })
           }
-        </div>
+        </ul>
         <p className='font-bold text-lg text-purple-500'>{lang_dict.workExample.techs}</p>
         <div className='flex flex-wrap space-x-4 space-y-1'>
           {
