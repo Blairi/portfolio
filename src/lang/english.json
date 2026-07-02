@@ -28,13 +28,6 @@
     "education": "Education",
     "educationList": [
       {
-        "title": "Diploma: Development of Systems with JAVA Technology (Spring)",
-        "subtitle": "Universidad Nacional Autónoma de México. Software Engineering",
-        "date": "Feb. 2026 - Sept. 2026",
-        "place": "Mexico City",
-        "desc": "Intensive 240-hour program. Specialized diploma in the creation of secure, scalable, distributed, and high-performance enterprise applications. As the final and integrating project of the program, I am developing a 'Marketplace of Professional On-Demand Services', applying data connectivity and persistence concepts. Mastery of modern Java ecosystem for the industry, integrating persistence solutions and organizing components in distributed applications. Use of IntelliJ IDE for the complete software development cycle."
-      },
-      {
         "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
         "subtitle": "Bachelor's Degree in Computer Engineering",
         "date": "2021-2026",
@@ -53,6 +46,13 @@
   "laboralExperience": {
     "laboralExperience": "Laboral Experience",
     "laboralExperienceList": [
+      {
+        "title": "El Puerto de Liverpool",
+        "subtitle": "Software Engineering Internship",
+        "date": "Abril. 2026 - ",
+        "place": "Santa Fe, Ciudad de México",
+        "desc": "I am currently collaborating on the upgrade of POS systems to modernize and unify point-of-sale processes across Liverpool stores. My role focuses on the creation of data ingestion modules. I am responsible for analyzing, optimizing, and creating business processes to adapt to the requirements of the new system, utilizing technologies such as Java, Spring Boot, React, Redux, and SQL. Additionally, I am in charge of developing prototypes and proofs of concept (PoCs) to validate the feasibility of new features and extensions for the new system."
+      },
       {
         "title": "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas",
         "subtitle": "Frontend Developer in Remote Laboratory Development",
