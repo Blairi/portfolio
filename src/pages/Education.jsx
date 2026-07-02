@@ -1,10 +1,17 @@
 import { useContext } from "react"
 import { LangContext } from "../context/LangContext";
 import { Timeline } from "../components/ui";
+import unamIcon from "../assets/UNAM.png"
+import cecytemIcon from "../assets/cecytem2.png"
 
 export const Education = () => {
 
   const { lang_dict } = useContext(LangContext);
+
+  const educationData = lang_dict.education.educationList.map((item, index) => ({
+      ...item,
+      icon: [unamIcon, cecytemIcon][index],
+    }))
 
   return (
     <div
@@ -19,7 +26,7 @@ export const Education = () => {
         </h2>
 
         {
-          <Timeline data={lang_dict.education.educationList} />
+          <Timeline data={educationData} />
         }
 
       </div>
