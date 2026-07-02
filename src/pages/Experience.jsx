@@ -1,10 +1,18 @@
 import { useContext } from "react"
 import { LangContext } from "../context/LangContext"
 import { Timeline } from "../components/ui";
+import liverIcon from "../assets/liver-icon.png"
+import iimasIcon from "../assets/iimas.png"
+import upvmIcon from "../assets/upvm-icon.png"
 
 export const Experience = () => {
 
   const { lang_dict } = useContext(LangContext);
+
+  const experienceData = lang_dict.laboralExperience.laboralExperienceList.map((item, index) => ({
+    ...item,
+    icon: [liverIcon, iimasIcon, upvmIcon][index],
+  }))
 
   return (
     <div
@@ -19,7 +27,7 @@ export const Experience = () => {
         </h2>
 
         {
-          <Timeline data={lang_dict.laboralExperience.laboralExperienceList} />
+          <Timeline data={experienceData} />
         }
       </div>
 

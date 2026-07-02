@@ -28,13 +28,6 @@
     "education": "Educación",
     "educationList": [
       {
-        "title": "Diplomado: Desarrollo de Sistemas con Tecnología JAVA (Spring)",
-        "subtitle": "Universidad Nacional Autónoma de México. Ingeniería de software",
-        "date": "Feb. 2026 - Sept. 2026",
-        "place": "Ciudad de México",
-        "desc": "Programa intensivo de 240 horas. Diplomado especializado en la creación de aplicaciones empresariales seguras, escalables, distribuidas y de alto desempeño. Como proyecto final e integrador del programa, me encuentro desarrollando un 'Marketplace de Servicios Profesionales On-Demand', aplicando conceptos de conectividad y persistencia de datos. Dominio del ecosistema moderno de Java para la industria, integrando soluciones de persistencia y organizando componentes en aplicaciones distribuidas. Uso de IDE IntelliJ para el ciclo completo de desarrollo de software."
-      },
-      {
         "title": "Facultad de Ingeniería. Universidad Nacional Autónoma de México",
         "subtitle": "Grado en Ingeniería en Computación",
         "date": "2021-2026",
@@ -53,6 +46,13 @@
   "laboralExperience": {
     "laboralExperience": "Experiencia Laboral",
     "laboralExperienceList": [
+      {
+        "title": "El Puerto de Liverpool",
+        "subtitle": "Software Engineering Internship",
+        "date": "Abril. 2026 - ",
+        "place": "Santa Fe, Ciudad de México",
+        "desc": "Actualmente colaboro en la actualización de los sistemas POS para modernizar y unificar los procesos del punto de venta en las tiendas Liverpool. Mi participación se centra en la creación de los módulos de ingesta. Me encargo de analizar, optimizar y crear procesos de negocio para adaptarse a las necesidades del nuevo sistema, utilizando tecnologías como Java, Spring Boot, React, Redux y SQL. También me encargó de la creación de prototipos o pruebas de concepto para validar la viabilidad de nuevas funcionalidades y extensiones para el nuevo sistema."
+      },
       {
         "title": "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas",
         "subtitle": "Programador Frontend en el desarrollo de Laboratorio Remoto",
